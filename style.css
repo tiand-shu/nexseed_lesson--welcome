@@ -415,18 +415,19 @@ body{
 .l-header__area{
     padding: 0 5%;
 }
-.l-header__logobox{
-    font-size: 1.5rem;
-}
+
 .l-header__logobox img{
     height: 70px;
     padding: 10px 0 25px;
     vertical-align: middle;
 }
 .l-header__registerbox{
+    display: none;
+}
+/* .l-header__registerbox{
     font-size: 1.5rem;
     margin:20px 0 0;
-}
+}  */
 
 /* KV
 ------------------------------------- */
@@ -512,13 +513,19 @@ body{
 
 /* footer
 ------------------------------------- */
+
 .l-footer{
     padding: 0 5%;
+    display: flex;
+    justify-content: center;
 }
-.l-footer__logo img{
+.l-footer__logo{
+    display: none;
+}
+/* .l-footer__logo img{
     height: 70px;
 }
 .l-footer__lcopyright{
     font-size: 1rem;
-}
+} */
 }
