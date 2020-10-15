@@ -476,7 +476,7 @@ body{
 /* contact
 ------------------------------------- */
 .top-contact form{
-    width: 90%;
+    width: 90vw;
     margin: 0 auto;
 }
 .top-contact__entryarea{
@@ -503,7 +503,11 @@ body{
 .top-contact__textareaarea textarea{
     padding: 4%;
     width: 100%;
-    height: auto;
+    height: 20vh;
+}
+.top-contact__buttonarea button{
+    width: 90vw;
+    padding: .5em 0;
 }
 
 /* footer
