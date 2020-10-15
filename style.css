@@ -249,7 +249,7 @@ button{cursor: pointer;}
     font-weight: bold;
 }
 
-.l-footer__lcopyright{
+.l-footer__copyright{
     font-size: 1.6rem;
     color: #fff;
     margin: 25px 0;
@@ -381,7 +381,7 @@ button{cursor: pointer;}
 .l-footer__logo{
     font-size: 1.6rem;
 }
-.l-footer__lcopyright{
+.l-footer__copyright{
     font-size: 1.2rem;
 }
 
