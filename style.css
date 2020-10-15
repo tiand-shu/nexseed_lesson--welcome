@@ -466,7 +466,7 @@ body{
     flex-flow: column nowrap;
 }
 .top-curriculum_imgbox figure{
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 .top-curriculum a img{
     width: 80vw;
