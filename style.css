@@ -11,9 +11,9 @@
     text-decoration: none; 
     box-sizing: border-box;
 }
-a{color: inherit;}
-button{cursor: pointer;}
 
+/* base
+------------------------------------- */
 html{
     height: 100%;
     font-size: 62.5%;
@@ -24,6 +24,8 @@ body{
     line-height: 1.7;
     padding-top: 80px;
 }
+a{color: inherit;}
+button{cursor: pointer;}
 
 
 /* common
@@ -424,10 +426,6 @@ body{
 .l-header__registerbox{
     display: none;
 }
-/* .l-header__registerbox{
-    font-size: 1.5rem;
-    margin:20px 0 0;
-}  */
 
 /* KV
 ------------------------------------- */
@@ -522,10 +520,4 @@ body{
 .l-footer__logo{
     display: none;
 }
-/* .l-footer__logo img{
-    height: 70px;
-}
-.l-footer__lcopyright{
-    font-size: 1rem;
-} */
 }
